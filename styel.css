@@ -1,0 +1,469 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.headr{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    z-index: 3;
+}
+
+.logo{
+    margin-left: 50px;
+}
+.mneu{
+    margin-right: 50px;
+}
+nav a{
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+.logo span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo i{
+    font-size: 25px;
+}
+.HomeBox{
+    align-items: center;
+    background-image: url("Images/home-bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    height: 650px;
+    background-position: center;
+}
+.leftSide{
+    width: 45%;
+}
+.leftSide h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.leftSide P{
+    font-size: 20px;
+}
+.leftSide input{
+    box-shadow: 1px 1px 3px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.leftSide input:hover{
+    background-color: red; /* Green */
+    color: white;
+}
+.rightSide{
+    width: 40%;
+}
+.rightSide img{
+    width: 100%;
+}
+.Speciality{
+    height: 500px;
+    margin-top: 30px;
+}
+.titleSpecialityBox{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+ 
+    display: flex;
+}
+.spanSpeciality{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    margin-left: 5px;
+}
+
+.spanOur{
+    font-weight: bold;
+    font-size: 20px;
+}
+.mneuPage{
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 10px;
+    height: 552px;
+    
+}
+.mneuDetilas{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.CoverImage{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.img{
+    width: 100%;
+    height: 0;
+    transition: height 1s ;
+}
+
+.mneuDetilas:hover .img{
+    height: 100%;
+}
+
+.MostPouplear{
+ 
+    height: 1000px;
+    margin-top: 150px;
+}
+.MostPouolerheader{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+   
+}
+.PopularSpan{
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    margin-left: 5px;
+}
+.MostSpan{
+    font-weight: bold;
+    font-size: 20px;
+}
+.MostPouplearBox{
+   
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 10px;
+    height: 900px;
+
+}
+.BodyPuplerBox{
+    position: relative;
+    height: 400px;
+   
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+}
+.BodyPuplerBox img{
+    width: 80%;
+}
+
+.BodyPuplerBox input{
+   
+    color: red;
+    box-shadow:1px 1px 3px;
+    background-color: white;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.BodyPuplerBox input:hover{
+    background-color: red; 
+    color: white;
+}
+.priceBox{
+    box-shadow: 1px 1px 3px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    height: 30px;
+    border: 1px solid red;
+    width: 20%;
+}
+.priceBox span{
+    color: white;
+    font-weight: bold;
+}
+
+.DetilasOrder{
+    text-align: center;
+    display: flex;
+    margin-top: 5px;
+    height: 250px;
+}
+.DetilasOrderBox{
+    height: 200px;
+    width: 30%;
+    
+}
+.DetilasOrderBox img{
+    box-shadow: 1px 1px 10px;
+    border: 10px solid white;
+    border-radius: 50%;
+    width: 50%;
+}
+.DetilasOrderBox span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.OurFoodGalary{
+    height: 1000px;
+    margin-top: 10px;
+}
+.GalarySpan{
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    margin-left: 5px;
+}
+.OurSpan{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.FoodSpan{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.OurFoodGalaryheadr{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+}
+.OurFoodBody{
+    gap: 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.OurFoodGalaryBox{
+    box-shadow: 1px 3px 10px;
+    width: 30%;
+    height: 270px;
+    border: 10px solid white;
+}
+.OurFoodGalaryBox img{
+    width: 100%;
+}
+.OurCoustmerReview{
+    
+    margin-top: 10px;
+    height: 400px;
+}
+.ReviewSpan{
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    margin-left: 5px;
+}
+.OurSpan{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.CoustmerSpan{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.OurCoustmerReviewHedaer{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+.OurCoustmerReviewBody{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    height: 200px;
+}
+.OurCoustmerReviewBox{
+    margin-top: 60px;
+    box-shadow: 1px 1px 10px;
+    position: relative;
+    background-color: #303030;
+    width: 30%;
+    height: 200px;
+    border: 8px solid white;
+}
+.PersoneImage img{
+    box-shadow: 1px 1px 10px;
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 30%;
+    position: absolute;
+    top: -60px;
+    left: 120px;
+}
+.SpanName{
+    color: white;
+    margin-top: 60px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.Star{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.OrderNow{
+    height: 500px;
+    margin-top: 10px;
+}
+.OrderHeadr{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+}
+.NowSpan{
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    margin-left: 5px;
+}
+.OrderSpan{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.OrderBox{
+    justify-content: space-around;
+    display: flex;
+    height: 500px;
+}
+.leftImageSide{
+    width: 45%;
+    height: 395px;
+}
+.RegsiterOrder{
+    width: 45%;
+    height: 395px;
+  
+}
+.OrderBox img{
+    width: 100%;
+}
+.OrderBox input{
+    margin-left:20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.OrderBox textarea{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 94%;
+    height: 150px;
+    margin-left: 20px;
+}
+.inputOrder {
+    color: red;
+    box-shadow: 1px 1px 3px;
+    background-color: white;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  .BoxInput  :hover input{
+    background-color: red; 
+    color: white;
+}
+.EndPage{
+   margin-top: 10px;
+   height: 150px; 
+   background-color: black;
+   border: 1px solid black;
+}
+.SociaMedia{
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.BoxInput{
+    margin: 40px;
+}
+
+.BoxInput input{
+    color: red;
+    box-shadow: 1px 1px 3px;
+    background-color: black;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.BoxInput:hover input{
+    background-color: red; 
+    color: white;
+}
+.endPragraph{
+    margin-left: 500px;
+    width: 40%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
